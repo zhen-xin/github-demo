@@ -14,4 +14,9 @@ public class Demo {
     public String test(){
         return "牛润之我是你爹!!!你是我儿!!!";
     }
+
+    @RequestMapping("main")
+    public String main(){
+        return "刘林涛我是你爹!!!你是我儿!!!";
+    }
 }
